@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="TestNG Atomation TestSuite">
+                                  <test name=" TestNG basic Annotations testngTest">
+ <classes>
+ 
+ 
+ <class name="com.Test.TestNG_InvocationTimeOut" />
+ 
+ <class name="com.Test.TestNG_InvocationCount" />
+
+ 
+ 
+                           </classes>
+                                       </test>
+                                                  </suite>

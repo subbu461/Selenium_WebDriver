@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "GroupRun">
+   <test name = "GroupRun">
+   
+      <groups>
+         <run>
+            <include name = "Regression" />
+            <include name = "Functional" />
+            <exclude name = "Sanity" />
+            
+      </run>
+      </groups>
+ 
+      <classes>
+         <class name = "TestNG_WebDriver_Testsuites_Exclude" />
+      </classes>
+   
+   </test>
+</suite> 
